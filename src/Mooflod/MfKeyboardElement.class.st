@@ -28,12 +28,12 @@ MfKeyboardElement class >> exampleSimpleKeyboard [
 	<script>
 	| k space |
 	k := MfKeyboardElement new.
-	space := BlSpace new extent: World extent x / 6 @ World extent y.
+	space := BlSpace new extent: 1000@400"World extent x / 6 @ World extent y".
 	space useMorphicHost.
 	space toTheme: MfMooflodTheme new.
 	k transformDo: [ :c |
-		c rotateBy: 90.
-		c translateBy: -270 @ 300 ].
+			c rotateBy: 90.
+			c translateBy: -270 @ 300 ].
 	space root addChild: k.
 	space show.
 	^ space
