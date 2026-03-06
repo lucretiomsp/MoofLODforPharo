@@ -17,7 +17,7 @@ BaselineOfMooflod >> baseline: spec [
         spec
             baseline: 'Toplo'
             with: [
-            spec repository: 'github://pharo-graphics/Toplo:master/src' ].
+            spec repository: 'github://pharo-graphics/Toplo:Pharo13/src' ].
 
         "Linkink external dependencies"
         spec
